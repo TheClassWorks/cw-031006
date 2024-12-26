@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url("https://v1.fontapi.ir/css/Estedad");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: estedad;
+}
+
+.wrapper{
+  background-color: green;
+
+}
+.wrapper h3{
+  color: azure;
+}
+
+@media screen and (max-width:600px) {
+  .wrapper h3{
+    color: red;
+    font-size: 30px;
+  }
+  .wrapper{
+    background-color: purple;
+  
+  }
+}
+
+@media  screen and (max-width:800px) and (min-width:601px){
+  .wrapper{
+    background-color: pink;
+  }
+  .wrapper img{
+    display: none;
+  }
+}
